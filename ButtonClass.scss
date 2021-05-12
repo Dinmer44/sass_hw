@@ -1,0 +1,31 @@
+@use 'Variables';
+%design-button {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: Variables.$deep-black;
+    border-radius: 2%;
+  }
+
+.ok-button{
+    @extend %design-button;
+    size: 30px;
+}
+.cancel-button{
+    @extend %design-button;
+}
+
+button {
+    a {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    img { display: inline-block; }
+  
+    h1 {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }

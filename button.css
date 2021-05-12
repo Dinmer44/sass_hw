@@ -1,0 +1,26 @@
+.cancel-button, .ok-button {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: black;
+  border-radius: 2%;
+}
+
+.ok-button {
+  size: 30px;
+}
+
+button a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button img {
+  display: inline-block;
+}
+button h1 {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=button.css.map */

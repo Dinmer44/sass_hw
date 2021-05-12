@@ -1,0 +1,15 @@
+button a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button img {
+  display: inline-block;
+}
+button h1 {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=second.css.map */
